@@ -1,4 +1,4 @@
-# Évalutation HTML-CSS-Boostrap Studi 2021
+# Évalutation HTML CSS Boostrap Studi 2021
 
 Évaluation d'entrainement réalisé dans le cadre du Bachelor Développeur d'application option Python.
 
@@ -6,8 +6,6 @@
 
 - [Contexte du projet](#Contexte-du-projet)
 - [Introduction](#introduction)
-
-
 
 ## Contexte du projet 
 
@@ -19,3 +17,4 @@ Le site devra au minimum contenir 2 pages :
 date, les détails).
 Bien entendu le site devra être responsive et à la demande du client l'interface devra être pensée mobile
 first !
+
