@@ -1,0 +1,2 @@
+
+npm purgecss --css assets/css/starter.css --content index.html --output assets/css/

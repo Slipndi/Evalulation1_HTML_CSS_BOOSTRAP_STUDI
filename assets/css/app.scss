@@ -1,0 +1,7 @@
+//bootstrap import
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Variable overrides
+body {
+  background-color: $black;
+}
