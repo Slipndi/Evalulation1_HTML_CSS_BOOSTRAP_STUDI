@@ -12017,11 +12017,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   top: 50%;
   left: 50%;
   height: 92vh;
-  width: 100%;
-  background-image: url("../img/heroePic.png");
   background-repeat: no-repeat;
-  -webkit-transform: translate(-275px, -284px);
-          transform: translate(-275px, -284px);
+  -webkit-transform: translate(-268px, -284px);
+          transform: translate(-268px, -284px);
 }
 
 @media (max-width: 992PX) {
