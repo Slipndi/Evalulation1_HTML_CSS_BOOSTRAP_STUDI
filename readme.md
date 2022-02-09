@@ -45,5 +45,7 @@ npm install bootstrap
 
 ## Ressources 
 
-- Photo :
+- Photos : 
+Photo by <a href="https://unsplash.com/@metinozer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Metin Ozer</a> on <a href="https://unsplash.com/s/photos/boxer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 - inspiration du design : 

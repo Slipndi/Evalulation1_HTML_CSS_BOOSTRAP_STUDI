@@ -4,7 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Rubik:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;900&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11968,66 +11968,71 @@ html, body {
 body {
   background-color: black;
   color: #fff9fbff;
-  font-weight: 700;
-  padding-left: 1vw;
+  font-weight: 600;
   font-size: 16px;
-}
-
-.heroPicture {
-  height: 100vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.bigTitle {
   font-family: 'Rubik', sans-serif;
-  font-size: 7rem;
-  color: #fff9fbff;
-  font-weight: 900;
-  line-height: 80%;
 }
 
-.card {
-  background-color: rgba(2, 2, 2, 0.35);
-  -webkit-box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  color: #fff9fbff;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  font-size: 16px;
+header {
+  height: 5vh;
+  background-color: black;
 }
 
-.bg-red {
-  background-color: #bb0a21ff;
-}
-
-.vph-80 {
-  height: 80vh;
+main {
+  height: 90vh;
+  margin-left: 1vw;
 }
 
 footer {
-  font-size: 12px;
+  height: 5vh;
+  background-color: black;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 4vw;
+}
+
+.bg-redly {
+  background-color: #bb0a21ff;
+}
+
+h1, .h1 {
+  font-size: 6rem;
+  line-height: 0.8;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-weight: 900;
+}
+
+.picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 92vh;
+  width: 100%;
+  background-image: url("../img/heroePic.png");
+  background-repeat: no-repeat;
+  -webkit-transform: translate(-275px, -284px);
+          transform: translate(-275px, -284px);
+  overflow: hidden;
 }
 
 @media (max-width: 992PX) {
-  body {
-    font-size: 14px;
-  }
-  .heroPicture {
-    -webkit-transform: translate(-15%, -40%);
-    transform: translate(-15%, -40%);
+  .picture {
     height: 83vh;
+    -webkit-transform: translate(-130px, -247px);
+    transform: translate(-130px, -247px);
   }
-  .bigTitle {
-    font-size: 4rem;
-  }
-  .left {
-    overflow-x: hidden;
+  .first, .second {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=app.css.map */
