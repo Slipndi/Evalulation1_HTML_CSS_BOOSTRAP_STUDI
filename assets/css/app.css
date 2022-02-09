@@ -11970,6 +11970,7 @@ body {
   color: #fff9fbff;
   font-weight: 700;
   padding-left: 1vw;
+  font-size: 16px;
 }
 
 .heroPicture {
@@ -11981,13 +11982,7 @@ body {
           transform: translate(-50%, -50%);
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
-}
-
 .bigTitle {
-  padding-top: 15vh;
   font-family: 'Rubik', sans-serif;
   font-size: 7rem;
   color: #fff9fbff;
@@ -11995,16 +11990,34 @@ body {
   line-height: 80%;
 }
 
-.card-header {
-  background-color: black;
+.card {
+  background-color: rgba(2, 2, 2, 0.35);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: #fff9fbff;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 16px;
 }
 
-.right {
+.bg-red {
   background-color: #bb0a21ff;
 }
 
+.vph-80 {
+  height: 80vh;
+}
+
+footer {
+  font-size: 12px;
+}
+
 @media (max-width: 992PX) {
+  body {
+    font-size: 14px;
+  }
   .heroPicture {
     -webkit-transform: translate(-15%, -40%);
     transform: translate(-15%, -40%);
@@ -12012,6 +12025,9 @@ body {
   }
   .bigTitle {
     font-size: 4rem;
+  }
+  .left {
+    overflow-x: hidden;
   }
 }
 /*# sourceMappingURL=app.css.map */
