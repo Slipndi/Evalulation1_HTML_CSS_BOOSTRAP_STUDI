@@ -23,9 +23,13 @@ $gradient-bottom-left: linear-gradient(315deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, 
 $gradient-radial: radial-gradient(#d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
 
 //Variable overrides
+html, body {
+  overflow-x:hidden;
+  max-width: 100%;
+}
+
 body {
   background-color: $raisin-black;
-  overflow-x:hidden;
   color:$snow;
   font-weight:700;
   padding-left: 1vw;
@@ -60,9 +64,6 @@ header {
 }
 .right{
   background-color: $firebrick;
-}
-p{
-  text-align: justify !important;
 }
 @media (max-width: 992PX){
   .heroPicture{

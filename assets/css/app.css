@@ -11960,9 +11960,13 @@ fieldset:disabled .btn {
 
 /* SCSS HEX */
 /* SCSS Gradient */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   background-color: black;
-  overflow-x: hidden;
   color: #fff9fbff;
   font-weight: 700;
   padding-left: 1vw;
@@ -11998,10 +12002,6 @@ body {
 
 .right {
   background-color: #bb0a21ff;
-}
-
-p {
-  text-align: justify !important;
 }
 
 @media (max-width: 992PX) {
