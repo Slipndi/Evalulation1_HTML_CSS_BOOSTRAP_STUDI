@@ -36,6 +36,15 @@ npm install bootstrap
 
 - Utilisation du Javascript boostrap minimified
 
+- Génération d'une palette de couleur via Coolors
+
+
 ## Objectifs personnel
 
 - Site respectant les standards d'accessibilités (contraste, balisage, etc.), basé sur les règles de https://www.a11yproject.com.
+- Je décide de faire ma version du site de l'association KRAV MAGA Accord 68.
+
+## Ressources 
+
+- Photo :
+- inspiration du design : 

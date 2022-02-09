@@ -1,7 +1,77 @@
 //bootstrap import
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Rubik:wght@900&display=swap');
+
+
+/* SCSS HEX */
+$light-gray: #d3d4d9ff;
+$blue-munsell: #4b88a2ff;
+$firebrick: #bb0a21ff;
+$raisin-black: rgb(0, 0, 0);
+$snow: #fff9fbff;
+
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-right: linear-gradient(90deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-bottom: linear-gradient(180deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-left: linear-gradient(270deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-top-right: linear-gradient(45deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-bottom-right: linear-gradient(135deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-top-left: linear-gradient(225deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-bottom-left: linear-gradient(315deg, #d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
+$gradient-radial: radial-gradient(#d3d4d9ff, #4b88a2ff, #bb0a21ff, #252627ff, #fff9fbff);
 
 //Variable overrides
 body {
-  background-color: $black;
+  background-color: $raisin-black;
+  overflow-x:hidden;
+  color:$snow;
+  font-weight:700;
+  padding-left: 1vw;
 }
+header {
+}
+
+.heroPicture {
+  height:100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width:50px;
+  height:50px;
+}
+.bigTitle {
+  padding-top:15vh;
+  font-family: 'Rubik', sans-serif;
+  font-size:7rem;
+  color:$snow;
+  font-weight: 900;
+  line-height: 80%;
+  
+}
+.card-header{
+  background-color: $raisin-black;
+  color:$snow;
+}
+.right{
+  background-color: $firebrick;
+}
+p{
+  text-align: justify !important;
+}
+@media (max-width: 992PX){
+  .heroPicture{
+      -webkit-transform: translate(-15%, -40%);
+      transform: translate(-15%, -40%);
+      height:83vh;
+  }
+  .bigTitle{
+    font-size:4rem;
+  }
+}
+
