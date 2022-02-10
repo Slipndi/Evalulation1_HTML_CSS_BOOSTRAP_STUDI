@@ -12,7 +12,7 @@
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #EDB518;
+  --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -11984,13 +11984,16 @@ header {
   grid-area: header;
 }
 
+.heropage {
+  background-image: url("../img/heroePic.png");
+  background-repeat: no-repeat;
+  background-position: -65%;
+}
+
 main {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
-  background-image: url("../img/heroePic.png");
-  background-repeat: no-repeat;
-  background-position: -65%;
 }
 
 footer {
@@ -12033,7 +12036,7 @@ h3, .h3 {
 
 .heroText {
   color: transparent;
-  -webkit-text-stroke: 1px #F5F7F7;
+  -webkit-text-stroke: 3px #F5F7F7;
 }
 
 .btn {
@@ -12051,9 +12054,12 @@ h3, .h3 {
   h1, .h1 {
     font-size: 7rem;
   }
-  main {
+  .heropage {
     background-size: contain;
     background-position-x: center;
+  }
+  .heroText {
+    margin-top: 5vh;
   }
 }
 /*# sourceMappingURL=app.css.map */
