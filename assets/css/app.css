@@ -12016,18 +12016,14 @@ footer {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 50px calc(100vh - 125px) 75px;
-      grid-template-rows: 50px calc(100vh - 125px) 75px;
+  -ms-grid-rows: 50px minmax(calc(100vh - 125px), auto) 75px;
+      grid-template-rows: 50px minmax(calc(100vh - 125px), auto) 75px;
       grid-template-areas: "header" "main" "footer";
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-weight: 900;
   line-height: 0.8;
-}
-
-h1, .h1 {
-  font-size: 8rem;
 }
 
 h3, .h3 {
@@ -12037,18 +12033,33 @@ h3, .h3 {
 .heroText {
   color: transparent;
   -webkit-text-stroke: 3px #F5F7F7;
+  font-size: 8rem;
+}
+
+.evt1 {
+  background-image: url("../img/couteau_mini.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn {
   font-weight: 600;
 }
 
+.card-img-top > img {
+  width: 100%;
+}
+
+.card-body {
+  font-weight: 300;
+}
+
 @media (max-height: 768px) {
   .grid {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: 50px calc(100vh - 125px) 75px;
-        grid-template-rows: 50px calc(100vh - 125px) 75px;
+    -ms-grid-rows: 50px minmax(calc(100vh - 125px), auto) 75px;
+        grid-template-rows: 50px minmax(calc(100vh - 125px), auto) 75px;
         grid-template-areas: "header header" "main main" "footer footer";
   }
   h1, .h1 {

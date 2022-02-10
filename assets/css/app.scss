@@ -58,7 +58,7 @@ footer {
 .grid{
   display:grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px $mainHeight 75px;
+  grid-template-rows: 50px minmax($mainHeight, auto) 75px;
   grid-template-areas: 
   "header"
   "main"
@@ -69,7 +69,7 @@ h1,h2,h3,h4 {
   line-height:0.8;
 }
 h1{
-  font-size: 8rem;
+  
 }
 h3{
   font-size:2rem;
@@ -77,16 +77,28 @@ h3{
 .heroText {
   color:transparent;
   -webkit-text-stroke: 3px $snow;
+  font-size: 8rem;
+}
+.evt1{
+  background-image: url("../img/couteau_mini.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn{
   font-weight: 600;
 }
 
+.card-img-top > img {
+  width:100%;
+}
+.card-body{
+  font-weight: 300;
+}
 @media(max-height:768px){
   .grid{ 
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px $mainHeight 75px;
+    grid-template-rows: 50px minmax($mainHeight, auto) 75px;
     grid-template-areas: 
       "header header"
       "main main"
