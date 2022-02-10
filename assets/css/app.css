@@ -12036,6 +12036,10 @@ h3, .h3 {
   -webkit-text-stroke: 1px #F5F7F7;
 }
 
+.btn {
+  font-weight: 600;
+}
+
 @media (max-height: 768px) {
   .grid {
     -ms-grid-columns: (1fr)[2];
