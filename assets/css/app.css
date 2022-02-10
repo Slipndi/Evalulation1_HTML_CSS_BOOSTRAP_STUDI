@@ -12069,6 +12069,7 @@ form > .btn {
   .heropage {
     background-size: contain;
     background-position-x: center;
+    background-position-y: bottom;
   }
   .heroText {
     margin-top: 5vh;
