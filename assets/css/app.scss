@@ -95,7 +95,7 @@ h3{
 .card-body{
   font-weight: 300;
 }
-@media(max-height:768px){
+@media(min-height:768px){
   .grid{ 
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50px minmax($mainHeight, auto) 75px;

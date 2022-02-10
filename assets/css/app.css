@@ -12054,7 +12054,7 @@ h3, .h3 {
   font-weight: 300;
 }
 
-@media (max-height: 768px) {
+@media (min-height: 768px) {
   .grid {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
