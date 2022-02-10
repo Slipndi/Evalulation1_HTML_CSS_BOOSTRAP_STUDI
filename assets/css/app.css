@@ -12055,7 +12055,7 @@ form > .btn {
   padding-bottom: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;

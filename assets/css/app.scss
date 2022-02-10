@@ -93,7 +93,7 @@ form > .btn {
   padding-top: 14px;
   padding-bottom:14px;
 }
-@media(min-width:768px){
+@media(min-width:992px){
   .grid{ 
     grid-template-columns: 1fr;
     grid-template-rows: 50px minmax($mainHeight, auto) 75px;
