@@ -54,4 +54,4 @@ Photo by <a href="https://unsplash.com/@metinozer?utm_source=unsplash&utm_medium
 
 ## Statistiques 
 
-![Résultat LightHouse](https://github.com/Slipndi/Evalulation1_HTML_CSS_BOOSTRAP_STUDI/blob/0cbf80c30a1d21cab0252798278a720df3da0bba/assets/img/stats.png
+![Résultat LightHouse](https://github.com/Slipndi/Evalulation1_HTML_CSS_BOOSTRAP_STUDI/blob/0cbf80c30a1d21cab0252798278a720df3da0bba/assets/img/stats.png)
