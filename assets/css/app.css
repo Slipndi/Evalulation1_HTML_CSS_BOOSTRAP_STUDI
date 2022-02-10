@@ -11987,7 +11987,7 @@ header {
 .heropage {
   background-image: url("../img/heroePic.png");
   background-repeat: no-repeat;
-  background-position: -65%;
+  background-position-x: -65%;
 }
 
 main {
@@ -12036,12 +12036,6 @@ h3, .h3 {
   font-size: 8rem;
 }
 
-.evt1 {
-  background-image: url("../img/couteau_mini.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .btn {
   font-weight: 600;
 }
@@ -12054,13 +12048,13 @@ h3, .h3 {
   font-weight: 300;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
   .grid {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     -ms-grid-rows: 50px minmax(calc(100vh - 125px), auto) 75px;
         grid-template-rows: 50px minmax(calc(100vh - 125px), auto) 75px;
-        grid-template-areas: "header header" "main main" "footer footer";
+        grid-template-areas: "header" "main" "footer";
   }
   h1, .h1 {
     font-size: 7rem;

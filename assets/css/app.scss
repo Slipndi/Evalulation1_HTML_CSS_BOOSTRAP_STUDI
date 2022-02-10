@@ -43,7 +43,7 @@ header {
 .heropage{
   background-image: url("../img/heroePic.png");
   background-repeat: no-repeat;
-  background-position: -65%;
+  background-position-x: -65%;
 }
 main{
   grid-area: main;
@@ -68,9 +68,7 @@ h1,h2,h3,h4 {
   font-weight: 900;
   line-height:0.8;
 }
-h1{
-  
-}
+
 h3{
   font-size:2rem;
 }
@@ -78,11 +76,6 @@ h3{
   color:transparent;
   -webkit-text-stroke: 3px $snow;
   font-size: 8rem;
-}
-.evt1{
-  background-image: url("../img/couteau_mini.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .btn{
@@ -95,14 +88,14 @@ h3{
 .card-body{
   font-weight: 300;
 }
-@media(min-height:768px){
+@media(min-width:768px){
   .grid{ 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: 50px minmax($mainHeight, auto) 75px;
     grid-template-areas: 
-      "header header"
-      "main main"
-      "footer footer";
+      "header"
+      "main"
+      "footer";
   }
   h1{
     font-size: 7rem;
