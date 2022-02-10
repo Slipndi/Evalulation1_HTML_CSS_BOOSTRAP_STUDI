@@ -54,4 +54,4 @@ Photo by <a href="https://unsplash.com/@metinozer?utm_source=unsplash&utm_medium
 
 ## Statistiques 
 
-![Résultat LightHouse] (https://kravmagaaccord68.netlify.app/assets/img/stat.png)
+![Résultat LightHouse] (https://kravmagaaccord68.netlify.app/assets/img/stats.png)
