@@ -4,10 +4,17 @@
 
 
 /* SCSS HEX */
-$yellow:#EDB518;
+
+$warning:#EDB518;
 $firebrick: #79031D;
 $dark:#000407;
 $snow: #F5F7F7;
+
+$theme-colors:(
+  "warning":#EDB518,
+  "dark":#000407
+)
+
 
 $mainHeight : calc(100vh - 125px );
 
