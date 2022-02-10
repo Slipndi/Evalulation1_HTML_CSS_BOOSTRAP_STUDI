@@ -48,7 +48,27 @@
       </nav>
     </header>
     <main class="h-100 d-flex justify-content-center align-items-center flex-column">
-      Nous Rejoindre
+      <div class="row w-100 justify-content-md-center">
+        <div class="col-md-4 col-xs-12">
+          <h4>Nous contacter</h4>
+          <hr/>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" required aria-required="true"/>
+            </div>
+            <div class="mb-3">
+              <label for="nom" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="nom" required aria-required="true"/>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Votre message</label>
+              <textarea class="form-control" id="message" rows="3" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning my-3">Submit</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer class='darky'>
       <a href="#">
