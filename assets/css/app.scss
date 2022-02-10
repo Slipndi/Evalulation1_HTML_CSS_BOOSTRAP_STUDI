@@ -39,6 +39,7 @@ body {
 
 header {
   grid-area: header;
+  z-index:999999;
 }
 .heropage{
   background-image: url("../img/heroePic.png");
